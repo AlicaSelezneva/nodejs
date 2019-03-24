@@ -1,4 +1,4 @@
-const minimist = require('minimist')
+const minimist = require('minimist');
 
 exports.help = minimist(process.argv.slice(2), {
     string: ['size'],

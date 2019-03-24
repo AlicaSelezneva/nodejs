@@ -10,7 +10,7 @@ function setUser(user) {
 
 
 module.exports =
-{
-    setPort,
-    setUser
-}
+    {
+        setPort,
+        setUser
+    };
