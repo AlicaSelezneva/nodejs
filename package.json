@@ -1,0 +1,30 @@
+{
+  "name": "hw1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "cross-env PORT=3000 NODE_ENV=dev node app.js -test=ase",
+    "test": "cross-env GREET=\"Just testing shortcuts\" npm run testHello",
+    "testHello": "cross-env-shell \"echo Hello :) $GREET\""
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/AlicaSelezneva/homework_1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/AlicaSelezneva/homework_1/issues"
+  },
+  "homepage": "https://gitlab.com/AlicaSelezneva/homework_1#readme",
+  "dependencies": {
+    "colors": "^1.3.3",
+    "minimist": "^1.2.0",
+    "processenv": "^1.1.0"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0"
+  }
+}
