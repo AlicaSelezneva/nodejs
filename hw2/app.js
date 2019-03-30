@@ -1,0 +1,3 @@
+require("./result.js");
+student();
+
